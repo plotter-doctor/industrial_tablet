@@ -342,10 +342,23 @@ Option B — USB Power (residential)
 
 ---
 
+## Customization
+
+Need something beyond the standard configuration? We can provide:
+
+- **Additional kernel drivers** — support for specific USB devices, sensors, or communication protocols
+- **Custom Android apps** — tailored dashboards, kiosk launchers, or device management tools
+- **Hardware modifications** — custom I/O configurations, branding, or enclosure options
+- **Bulk provisioning** — pre-configured panels with your WiFi, HA server, and dashboard settings
+
+Contact us to discuss your requirements.
+
+---
+
 ## Support
 
 - **Issues & Questions** — [GitHub Issues](https://github.com/plotter-doctor/industrial_tablet/issues)
-- **Bulk Orders & Customization** — Open an issue or reach out via GitHub
+- **Custom Orders & Development** — Open an issue or reach out via GitHub
 
 ---
 
