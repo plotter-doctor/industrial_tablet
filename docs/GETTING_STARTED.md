@@ -7,9 +7,10 @@ First-time setup guide for the 7" Industrial Touch Panel.
 ## What's in the Box
 
 - 1× 7" Industrial Touch Panel (Home Assistant pre-configured)
-- 1× 24V DC power adapter (barrel connector)
-- 1× Micro-USB cable
-- 4× M3 mounting screws
+- 1× 24V DC cable with matching 2-pin connector
+- 1× External power button
+- 1× WiFi antenna
+- 4× Mounting screws
 
 ---
 

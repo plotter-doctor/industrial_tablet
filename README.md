@@ -84,9 +84,18 @@ Unlike consumer tablets, this panel is engineered for **24/7 unattended operatio
 | Specification | Value |
 |---|---|
 | **Cooling** | Fully passive (fanless) — no moving parts |
-| **Mounting** | 4× M3 screw holes for panel/wall mount |
+| **Mounting** | 4× screw holes for panel/wall mount |
 | **Operating Temperature** | 0°C to +50°C |
 | **Enclosure** | Rugged ABS/polycarbonate housing |
+
+### Included Accessories
+
+| Item | Description |
+|---|---|
+| **24V DC cable with connector** | Pre-wired cable with matching 2-pin connector, ready to connect to your PSU |
+| **Power button** | External power button for convenient on/off control |
+| **WiFi antenna** | External WiFi antenna for improved signal reception |
+| **Mounting screws** | 4× screws for panel/wall installation |
 
 ### Software
 
