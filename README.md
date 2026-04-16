@@ -340,31 +340,18 @@ The script handles: HA Companion install → Chrome WebView upgrade → boot bra
   <img src="images/photos/tablet_07.jpg" width="400">
 </p>
 <p align="center">
-  <img src="images/photos/tablet_08.jpg" width="400">&nbsp;&nbsp;
-  <img src="images/photos/tablet_09.jpg" width="400">
-</p>
-<p align="center">
-  <img src="images/photos/tablet_10.jpg" width="400">&nbsp;&nbsp;
+  <img src="images/photos/tablet_09.jpg" width="400">&nbsp;&nbsp;
   <img src="images/photos/tablet_11.jpg" width="400">
 </p>
 <p align="center">
-  <img src="images/photos/tablet_12.jpg" width="400">&nbsp;&nbsp;
   <img src="images/photos/tablet_13.jpg" width="400">
 </p>
 
 ### Screenshots
 
 <p align="center">
-  <img src="images/screenshots/screenshot_01.png" width="400">&nbsp;&nbsp;
-  <img src="images/screenshots/screenshot_02.png" width="400">
-</p>
-<p align="center">
-  <img src="images/screenshots/screenshot_03.png" width="400">&nbsp;&nbsp;
+  <img src="images/screenshots/screenshot_02.png" width="400">&nbsp;&nbsp;
   <img src="images/screenshots/screenshot_04.png" width="400">
-</p>
-<p align="center">
-  <img src="images/screenshots/screenshot_05.png" width="400">&nbsp;&nbsp;
-  <img src="images/screenshots/screenshot_06.png" width="400">
 </p>
 <p align="center">
   <img src="images/screenshots/screenshot_07.png" width="400">
