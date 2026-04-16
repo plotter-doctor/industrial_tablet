@@ -35,12 +35,12 @@ Unlike consumer tablets, this panel is engineered for **24/7 unattended operatio
 |:---:|---|---|
 | 🏭 | **Industrial Grade** | Designed for continuous 24/7 operation in workshops, server rooms, and production floors |
 | ❄️ | **Passive Cooling** | Fully fanless, zero moving parts — silent and maintenance-free |
-| ⚡ | **Dual Power Input** | 24V DC barrel jack (industrial standard) **or** 5V DC via Micro-USB |
+| ⚡ | **Dual Power Input** | 24V DC 2-pin connector (industrial standard) **or** 5V DC via Micro-USB |
 | 🖥️ | **7" Multi-Touch Display** | 1024×600 IPS, 5-point capacitive touch, 160 DPI |
 | 🏠 | **Home Assistant Ready** | Pre-installed HA Companion app, optimized browser, auto-start on boot |
 | 🔌 | **Rich I/O** | 2× Serial ports, 2× GPIO pins, 2× USB Host, 2× USB OTG, speaker & mic connectors |
-| 🔩 | **Panel Mountable** | 4× M3 mounting screws for VESA-compatible or custom panel/wall mounting |
-| 📡 | **Wireless** | WiFi 802.11 b/g/n (2.4 GHz) + Bluetooth 4.0 BLE |
+| 🔩 | **Panel Mountable** | 4× M3 mounting screws for wall or panel mounting |
+| 📡 | **Wireless** | WiFi 802.11 b/g/n (2.4 GHz) |
 | 🔧 | **Fully Hackable** | Rooted Android 7.1.2 with unlocked bootloader, full ADB access, custom kernel modules |
 
 ---
@@ -73,7 +73,7 @@ Unlike consumer tablets, this panel is engineered for **24/7 unattended operatio
 
 | Specification | Value |
 |---|---|
-| **Primary Input** | **24V DC** barrel jack (industrial standard) |
+| **Primary Input** | **24V DC** via 2-pin connector (industrial standard) |
 | **Alternative Input** | **5V DC** via Micro-USB connector |
 | **Power Consumption** | < 5W typical |
 | **Battery** | Internal Li-ion backup (maintains operation during power transitions) |
@@ -117,13 +117,13 @@ Unlike consumer tablets, this panel is engineered for **24/7 unattended operatio
 │                       SIDE / REAR I/O                      │
 │                                                            │
 │  ┌──────────────┐  ┌──────────────┐  ┌─────────────────┐  │
-│  │  Micro-USB   │  │  Micro-USB   │  │  2× USB-A Host  │  │
-│  │  OTG + Power │  │  OTG #2      │  │  (Full-size)    │  │
+│  │  Micro-USB   │  │  USB OTG     │  │  2× USB Host    │  │
+│  │  OTG + Power │  │  (4-pin hdr) │  │  (4-pin headers)│  │
 │  └──────────────┘  └──────────────┘  └─────────────────┘  │
 │                                                            │
 │  ┌──────────────┐  ┌──────────────┐  ┌─────────────────┐  │
-│  │  24V DC Jack │  │  3.5mm Audio │  │  Speaker + Mic  │  │
-│  │  Power Input │  │  Out         │  │  Header Pins    │  │
+│  │  24V DC      │  │  Speaker     │  │  Microphone     │  │
+│  │  (2-pin)     │  │  Header      │  │  Connector      │  │
 │  └──────────────┘  └──────────────┘  └─────────────────┘  │
 │                                                            │
 │  ┌──────────────┐  ┌──────────────┐  ┌─────────────────┐  │
@@ -139,31 +139,22 @@ Unlike consumer tablets, this panel is engineered for **24/7 unattended operatio
 
 | Connector | Count | Description |
 |---|:---:|---|
-| **Micro-USB OTG** | 2 | USB On-The-Go. Port #1 doubles as 5V power input |
-| **USB-A Host** | 2 | Full-size USB 2.0 for peripherals, serial adapters, WiFi/BT dongles, LTE modems |
+| **Micro-USB OTG** | 1 | USB On-The-Go port — doubles as 5V power input |
+| **USB OTG (pin header)** | 1 | 4-pin connector for second USB OTG interface |
+| **USB Host (pin header)** | 2 | 4-pin connectors for USB 2.0 host — connect peripherals, serial adapters, WiFi/BT dongles, LTE modems |
 | **Serial Ports (UART)** | 2 | Hardware UART0 & UART1 — 3.3V TTL. Direct connection to PLCs, sensors, RS-485 converters |
 | **GPIO Pins** | 2 | General Purpose I/O — 3.3V logic, controllable from userspace |
-| **24V DC Jack** | 1 | Industrial 24V DC barrel connector |
+| **24V DC Input** | 1 | 2-pin power connector for 24V DC supply |
 | **Speaker Connector** | 1 | Header for external 8Ω speakers — audio alerts and notifications |
-| **Microphone** | 1 | Built-in microphone with header — voice commands and audio monitoring |
-| **3.5mm Audio Jack** | 1 | Standard audio output |
+| **Microphone Connector** | 1 | Pin header for external microphone — voice commands and audio monitoring |
 | **MicroSD Slot** | 1 | Expandable storage (up to 64 GB) |
-| **HDMI** | 1 | Digital video output for external displays |
 
 ### Wireless
 
 | Interface | Details |
 |---|---|
 | **WiFi** | 802.11 b/g/n — 2.4 GHz, up to 72 Mbps |
-| **Bluetooth** | 4.0 with BLE (Bluetooth Low Energy) |
 | **WiFi Direct** | Peer-to-peer connections supported |
-
-### Cameras
-
-| Camera | Details |
-|---|---|
-| **Front** | VGA — video calls or presence detection |
-| **Rear** | Autofocus + flash — barcode scanning or documentation |
 
 ### Sensors
 
@@ -285,17 +276,14 @@ Two GPIO pins (3.3V logic) for:
 Four M3 threaded mounting holes on the rear panel:
 
 - **Wall mount** — direct screw-in or DIN rail adapter
-- **Panel cutout** — flush mount into cabinet door
-- **VESA adapter** — 75mm VESA compatible via adapter plate
-- **Desktop stand** — standard tablet stand or 3D-printed cradle
 
 ### Power Wiring
 
 ```
 Option A — Industrial (recommended for cabinets)
 ┌──────────┐      ┌─────────┐      ┌──────────┐
-│  24V DC  │─────▶│ Barrel  │─────▶│  Tablet  │
-│  PSU     │      │ Jack    │      │          │
+│  24V DC  │─────▶│ 2-pin   │─────▶│  Tablet  │
+│  PSU     │      │ connector│     │          │
 └──────────┘      └─────────┘      └──────────┘
   Shares 24V rail with PLCs and sensors
 
@@ -306,20 +294,6 @@ Option B — USB Power (residential)
 └──────────┘      └─────────┘      └──────────┘
   Any quality 5V/2A charger
 ```
-
----
-
-## Automated Provisioning
-
-Each panel is factory-provisioned using the included setup script:
-
-```bash
-./setup_tablet.sh              # single device
-./setup_tablet.sh --all        # all connected devices
-./setup_tablet.sh --status     # check device status
-```
-
-The script handles: HA Companion install → Chrome WebView upgrade → boot branding → WiFi config → performance tuning → kiosk mode → kernel module install → auto-updater setup.
 
 ---
 

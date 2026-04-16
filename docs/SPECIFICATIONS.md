@@ -43,11 +43,9 @@ Detailed spec sheet for the 7" Industrial Touch Panel.
 
 | Parameter | Value |
 |---|---|
-| **Input Voltage (DC Jack)** | 24V DC |
+| **Input Voltage (DC)** | 24V DC (2-pin connector) |
 | **Input Voltage (USB)** | 5V DC |
 | **Typical Consumption** | < 5W |
-| **Battery** | Li-ion (backup) |
-| **Battery Health Monitoring** | Yes |
 | **Operating Without Battery** | Supported (direct DC power) |
 
 ## Connectivity
@@ -55,32 +53,22 @@ Detailed spec sheet for the 7" Industrial Touch Panel.
 | Interface | Details |
 |---|---|
 | **WiFi** | 802.11 b/g/n, 2.4 GHz, up to 72 Mbps |
-| **Bluetooth** | 4.0 + BLE |
 | **Ethernet** | Via USB adapter (drivers included) |
-| **HDMI** | Digital video output |
 | **3G/LTE** | Via USB modem (drivers included) |
 
 ## I/O Ports
 
 | Port | Count | Specification |
 |---|:---:|---|
-| Micro-USB OTG | 2 | USB 2.0 OTG (port #1 = power input) |
-| USB-A Host | 2 | USB 2.0, 500mA per port |
+| Micro-USB OTG | 1 | USB 2.0 OTG (doubles as power input) |
+| USB OTG (pin header) | 1 | 4-pin connector, USB 2.0 OTG |
+| USB Host (pin header) | 2 | 4-pin connectors, USB 2.0 |
 | UART (Serial) | 2 | 3.3V TTL, UART0 + UART1 |
 | GPIO | 2 | 3.3V logic, software controllable |
-| DC Power Jack | 1 | 24V DC barrel connector |
-| 3.5mm Audio | 1 | Stereo output |
+| DC Power (2-pin) | 1 | 24V DC connector |
 | Speaker Header | 1 | 8Ω speaker connection |
-| Microphone | 1 | Built-in + header |
+| Microphone Connector | 1 | Pin header for external microphone |
 | MicroSD | 1 | Up to 64 GB |
-| HDMI | 1 | Digital video out |
-
-## Cameras
-
-| Camera | Resolution | Features |
-|---|---|---|
-| **Front** | VGA | Fixed focus |
-| **Rear** | 2 MP | Autofocus, LED flash |
 
 ## Sensors
 
