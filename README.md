@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/photos/tablet_01.jpg" width="700" alt="Industrial Tablet Panel">
+  <img src="images/photos/tablet_front_view_ha_main_screen.png" width="700" alt="Industrial Tablet Panel">
 </p>
 
 <h1 align="center">7" Industrial Touch Panel — Home Assistant Ready</h1>
