@@ -161,7 +161,6 @@ Unlike consumer tablets, this panel is engineered for **24/7 unattended operatio
 | Sensor | Model | Use Case |
 |---|---|---|
 | **Accelerometer** | MMA8451Q | Screen auto-rotation, vibration detection |
-| **Magnetometer** | AK8973A | Compass heading |
 
 ---
 

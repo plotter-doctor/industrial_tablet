@@ -75,8 +75,6 @@ Detailed spec sheet for the 7" Industrial Touch Panel.
 | Sensor | Model | Range |
 |---|---|---|
 | **Accelerometer** | NXP MMA8451Q | ±2g/±4g/±8g, 100 Hz |
-| **Magnetometer** | AKM AK8973A | 3-axis |
-| **Gyroscope** | Software fusion | 200 Hz |
 
 ## Environmental
 
