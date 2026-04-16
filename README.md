@@ -131,7 +131,7 @@ Unlike consumer tablets, this panel is engineered for **24/7 unattended operatio
 │  │  UART0 (TTL) │  │  UART1 (TTL) │  │  (3.3V logic)   │  │
 │  └──────────────┘  └──────────────┘  └─────────────────┘  │
 │                                                            │
-│               [ 4× M3 Mounting Screw Holes ]               │
+│               [ 4× Mounting Screw Holes ]               │
 └────────────────────────────────────────────────────────────┘
 ```
 
