@@ -344,7 +344,7 @@ The script handles: HA Companion install → Chrome WebView upgrade → boot bra
   <img src="images/photos/tablet_11.jpg" width="400">
 </p>
 <p align="center">
-  <img src="images/photos/tablet_13.jpg" width="400">
+  <img src="images/photos/tablet_front_view.png" width="400">
 </p>
 
 ### Screenshots
