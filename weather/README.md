@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/photos/tablet_front_view.png" width="700" alt="Industrial Tablet — Weather Station Dashboard">
+  <img src="images/photos/tablet_front_view_weawow.png" width="700" alt="Industrial Tablet — Weather Station Dashboard running Weawow">
 </p>
 
 <h1 align="center">7" Industrial Touch Panel — Weather & Calendar Dashboard</h1>
