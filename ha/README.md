@@ -38,7 +38,7 @@ Unlike consumer tablets, this panel is engineered for **24/7 unattended operatio
 | ⚡ | **Dual Power Input** | 24V DC 2-pin connector (industrial standard) **or** 5V DC via Micro-USB |
 | 🖥️ | **7" Multi-Touch Display** | 1024×600 IPS, 5-point capacitive touch, 160 DPI |
 | 🏠 | **Home Assistant Ready** | Pre-installed HA Companion app, optimized browser, auto-start on boot |
-| 🔌 | **Rich I/O** | 2× Serial ports, 2× GPIO pins, 2× USB Host, 2× USB OTG, speaker & mic connectors |
+| 🔌 | **Rich I/O** | Serial port, 2× GPIO pins, 2× USB Host, 2× USB OTG, speaker & mic connectors |
 | 🔩 | **Panel Mountable** | 4× M3 mounting screws for wall or panel mounting |
 | 📡 | **Wireless** | WiFi 802.11 b/g/n (2.4 GHz) |
 | 🔧 | **Fully Hackable** | Rooted Android 7.1.2 with unlocked bootloader, full ADB access, custom kernel modules |
@@ -135,10 +135,10 @@ Unlike consumer tablets, this panel is engineered for **24/7 unattended operatio
 │  │  (2-pin)     │  │  Header      │  │  Connector      │  │
 │  └──────────────┘  └──────────────┘  └─────────────────┘  │
 │                                                            │
-│  ┌──────────────┐  ┌──────────────┐  ┌─────────────────┐  │
-│  │  Serial Port │  │  Serial Port │  │  2× GPIO Pins   │  │
-│  │  UART0 (TTL) │  │  UART1 (TTL) │  │  (3.3V logic)   │  │
-│  └──────────────┘  └──────────────┘  └─────────────────┘  │
+│  ┌──────────────┐  ┌─────────────────┐                      │
+│  │  Serial Port │  │  2× GPIO Pins   │                      │
+│  │  UART0 (TTL) │  │  (3.3V logic)   │                      │
+│  └──────────────┘  └─────────────────┘                      │
 │                                                            │
 │               [ 4× Mounting Screw Holes ]               │
 └────────────────────────────────────────────────────────────┘
@@ -151,7 +151,7 @@ Unlike consumer tablets, this panel is engineered for **24/7 unattended operatio
 | **Micro-USB OTG** | 1 | USB On-The-Go port — doubles as 5V power input |
 | **USB OTG (pin header)** | 1 | 4-pin connector for second USB OTG interface |
 | **USB Host (pin header)** | 2 | 4-pin connectors for USB 2.0 host — connect peripherals, serial adapters, WiFi/BT dongles, LTE modems |
-| **Serial Ports (UART)** | 2 | Hardware UART0 & UART1 — 3.3V TTL. Direct connection to PLCs, sensors, RS-485 converters |
+| **Serial Port (UART)** | 1 | Hardware UART0 — 3.3V TTL. Direct connection to PLCs, sensors, RS-485 converters |
 | **GPIO Pins** | 2 | General Purpose I/O — 3.3V logic, controllable from userspace |
 | **24V DC Input** | 1 | 2-pin power connector for 24V DC supply |
 | **Speaker Connector** | 1 | Header for external 8Ω speakers — audio alerts and notifications |
@@ -260,7 +260,7 @@ Every panel ships ready to use:
 
 ### Serial Port Integration
 
-The two hardware UARTs appear as standard serial devices:
+The hardware UART appears as a standard serial device:
 
 - **RS-485 converters** → Modbus RTU to industrial sensors and PLCs
 - **TTL sensors** → CO2 sensors, air quality monitors, energy meters

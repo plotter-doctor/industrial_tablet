@@ -65,7 +65,7 @@ All configurations share the same industrial-grade hardware:
 | **RAM / Storage** | 1 GB DDR3 / 8 GB eMMC |
 | **Display** | 7" IPS, 1024×600, 5-point capacitive touch |
 | **Power** | 24V DC (2-pin) or 5V via Micro-USB |
-| **I/O** | 2× UART, 2× GPIO, 2× USB Host, 2× USB OTG, speaker, mic, MicroSD |
+| **I/O** | UART, 2× GPIO, 2× USB Host, 2× USB OTG, speaker, mic, MicroSD |
 | **Wireless** | WiFi 802.11 b/g/n (2.4 GHz) |
 | **Cooling** | Fully passive (fanless) |
 | **Mounting** | 4× M3 threaded holes |

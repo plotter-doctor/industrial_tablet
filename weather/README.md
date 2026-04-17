@@ -137,10 +137,10 @@ Unlike consumer tablets that go to sleep and nag for updates, this panel is engi
 │  │  (2-pin)     │  │  Header      │  │  Connector      │  │
 │  └──────────────┘  └──────────────┘  └─────────────────┘  │
 │                                                            │
-│  ┌──────────────┐  ┌──────────────┐  ┌─────────────────┐  │
-│  │  Serial Port │  │  Serial Port │  │  2× GPIO Pins   │  │
-│  │  UART0 (TTL) │  │  UART1 (TTL) │  │  (3.3V logic)   │  │
-│  └──────────────┘  └──────────────┘  └─────────────────┘  │
+│  ┌──────────────┐  ┌─────────────────┐                      │
+│  │  Serial Port │  │  2× GPIO Pins   │                      │
+│  │  UART0 (TTL) │  │  (3.3V logic)   │                      │
+│  └──────────────┘  └─────────────────┘                      │
 │                                                            │
 │               [ 4× Mounting Screw Holes ]                  │
 └────────────────────────────────────────────────────────────┘
@@ -153,7 +153,7 @@ Unlike consumer tablets that go to sleep and nag for updates, this panel is engi
 | **Micro-USB OTG** | 1 | USB On-The-Go port — doubles as 5V power input |
 | **USB OTG (pin header)** | 1 | 4-pin connector for second USB OTG interface |
 | **USB Host (pin header)** | 2 | 4-pin connectors for USB 2.0 host — connect WiFi dongles, keyboards |
-| **Serial Ports (UART)** | 2 | Hardware UART0 & UART1 — 3.3V TTL |
+| **Serial Port (UART)** | 1 | Hardware UART0 — 3.3V TTL |
 | **GPIO Pins** | 2 | General Purpose I/O — 3.3V logic |
 | **24V DC Input** | 1 | 2-pin power connector for 24V DC supply |
 | **Speaker Connector** | 1 | Header for external speaker — weather alerts and notification sounds |

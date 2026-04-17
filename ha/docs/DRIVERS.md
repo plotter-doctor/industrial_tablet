@@ -29,14 +29,13 @@ These modules enable plug-and-play support for USB-to-serial adapters. Once plug
 
 ## Hardware Serial Ports (Built-in)
 
-The tablet has two hardware UARTs directly on the SoC, exposed via pin headers:
+The tablet has a hardware UART directly on the SoC, exposed via pin header:
 
 | Port | Address | Device | Signal Level |
 |---|---|---|---|
 | UART0 | `0x20060000` | `/dev/ttyS0` | 3.3V TTL |
-| UART1 | `0x20064000` | `/dev/ttyS1` | 3.3V TTL |
 
-Both ports support RTS/CTS hardware flow control.
+The port supports RTS/CTS hardware flow control.
 
 > **Note:** UART2 (`0x20068000`) is typically used as the kernel debug console.
 

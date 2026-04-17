@@ -87,11 +87,11 @@ The internal Li-ion battery provides a brief buffer during power transitions. It
 
 ### Hardware UART (Built-in)
 
-The tablet's two UART pins provide direct 3.3V TTL serial:
+The tablet's UART pins provide direct 3.3V TTL serial:
 
 1. Connect your device's TX to the tablet's RX, and vice versa
 2. Connect grounds together
-3. Access via `/dev/ttyS0` (UART0) or `/dev/ttyS1` (UART1)
+3. Access via `/dev/ttyS0` (UART0)
 
 ### USB Serial Adapter
 

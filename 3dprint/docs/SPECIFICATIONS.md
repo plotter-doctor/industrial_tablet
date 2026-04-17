@@ -62,7 +62,7 @@ Detailed spec sheet for the 7" Industrial Touch Panel — 3D Printer Dashboard.
 | Micro-USB OTG | 1 | USB 2.0 OTG (doubles as power input) |
 | USB OTG (pin header) | 1 | 4-pin connector, USB 2.0 OTG |
 | USB Host (pin header) | 2 | 4-pin connectors, USB 2.0 |
-| UART (Serial) | 2 | 3.3V TTL, UART0 + UART1 |
+| UART (Serial) | 1 | 3.3V TTL, UART0 |
 | GPIO | 2 | 3.3V logic, software controllable |
 | DC Power (2-pin) | 1 | 24V DC connector |
 | Speaker Header | 1 | 8Ω speaker connection |

@@ -138,10 +138,10 @@ Unlike repurposed phones or cheap tablets, this panel is engineered for **24/7 w
 │  │  (2-pin)     │  │  Header      │  │  Connector      │  │
 │  └──────────────┘  └──────────────┘  └─────────────────┘  │
 │                                                            │
-│  ┌──────────────┐  ┌──────────────┐  ┌─────────────────┐  │
-│  │  Serial Port │  │  Serial Port │  │  2× GPIO Pins   │  │
-│  │  UART0 (TTL) │  │  UART1 (TTL) │  │  (3.3V logic)   │  │
-│  └──────────────┘  └──────────────┘  └─────────────────┘  │
+│  ┌──────────────┐  ┌─────────────────┐                      │
+│  │  Serial Port │  │  2× GPIO Pins   │                      │
+│  │  UART0 (TTL) │  │  (3.3V logic)   │                      │
+│  └──────────────┘  └─────────────────┘                      │
 │                                                            │
 │               [ 4× Mounting Screw Holes ]                  │
 └────────────────────────────────────────────────────────────┘
@@ -154,7 +154,7 @@ Unlike repurposed phones or cheap tablets, this panel is engineered for **24/7 w
 | **Micro-USB OTG** | 1 | USB On-The-Go port — doubles as 5V power input |
 | **USB OTG (pin header)** | 1 | 4-pin connector for second USB OTG interface |
 | **USB Host (pin header)** | 2 | 4-pin connectors for USB 2.0 host — connect serial adapters, webcams, WiFi dongles |
-| **Serial Ports (UART)** | 2 | Hardware UART0 & UART1 — 3.3V TTL. Direct connection to printer boards, CNC controllers |
+| **Serial Port (UART)** | 1 | Hardware UART0 — 3.3V TTL. Direct connection to printer boards, CNC controllers |
 | **GPIO Pins** | 2 | General Purpose I/O — 3.3V logic, controllable from userspace |
 | **24V DC Input** | 1 | 2-pin power connector for 24V DC supply |
 | **Speaker Connector** | 1 | Header for external speaker — print completion alerts |
