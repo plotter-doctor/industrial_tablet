@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/photos/tablet_front_view.png" width="700" alt="Industrial Tablet — 3D Printer Control Panel">
+  <img src="images/photos/tablet_front_view_octoprint.png" width="700" alt="Industrial Tablet — 3D Printer Control Panel running OctoPrint">
 </p>
 
 <h1 align="center">7" Industrial Touch Panel — 3D Printer Dashboard</h1>
