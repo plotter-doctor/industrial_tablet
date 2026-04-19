@@ -114,38 +114,31 @@ Unlike repurposed phones or cheap tablets, this panel is engineered for **24/7 w
 
 ## I/O and Connectivity
 
-### Port Diagram
+### Board Layout & Connectors
 
-```
-┌────────────────────────────────────────────────────────────┐
-│                        FRONT PANEL                         │
-│                     7" Touch Display                       │
-│                     1024 × 600 px                          │
-│                                                            │
-│  [ Front Camera ]                 [ Ambient Light Sensor ] │
-└────────────────────────────────────────────────────────────┘
+<p align="center">
+  <img src="../images/pcb_connector_diagram.png" width="700" alt="PCB board layout with numbered connector locations">
+</p>
 
-┌────────────────────────────────────────────────────────────┐
-│                       SIDE / REAR I/O                      │
-│                                                            │
-│  ┌──────────────┐  ┌──────────────┐  ┌─────────────────┐  │
-│  │  Micro-USB   │  │  USB OTG     │  │  2× USB Host    │  │
-│  │  OTG + Power │  │  (4-pin hdr) │  │  (4-pin headers)│  │
-│  └──────────────┘  └──────────────┘  └─────────────────┘  │
-│                                                            │
-│  ┌──────────────┐  ┌──────────────┐  ┌─────────────────┐  │
-│  │  24V DC      │  │  Speaker     │  │  Microphone     │  │
-│  │  (2-pin)     │  │  Header      │  │  Connector      │  │
-│  └──────────────┘  └──────────────┘  └─────────────────┘  │
-│                                                            │
-│  ┌──────────────┐  ┌─────────────────┐                      │
-│  │  Serial Port │  │  2× GPIO Pins   │                      │
-│  │  UART0 (TTL) │  │  (3.3V logic)   │                      │
-│  └──────────────┘  └─────────────────┘                      │
-│                                                            │
-│               [ 4× Mounting Screw Holes ]                  │
-└────────────────────────────────────────────────────────────┘
-```
+| # | Connector | Description |
+|:---:|---|---|
+| 1 | **POWER** | 2-pin power input connector (24V DC) |
+| 2 | **KEY + LED** | Key / LED harness connector |
+| 3 | **microSD** | microSD card slot |
+| 4 | **micro USB / OTG** | Service / OTG micro USB port (doubles as 5V power input) |
+| 5 | **RECOVERY** | Recovery / flashing push button |
+| 6 | **OTG header** | Small USB/OTG header: VBUS, D+, D−, GND |
+| 7 | **USB header** | Second small USB-style header |
+| 8 | **I/O / GPIO** | GPIO header: GPIO-B3, GPIO-B4, GND |
+| 9 | **USB HOST** | USB host header |
+| 10 | **UART** | Serial port: 5V, TXD, RXD, GND |
+| 11 | **MIC** | Microphone connector |
+| 12 | **RTC** | RTC pads / crystal area |
+| 13 | **SPEAKER** | Speaker connectors |
+| 14 | **SW-H/V** | Configuration slide switch |
+| 15 | **ANT** | U.FL / IPEX antenna connector |
+| 16 | **FPC LCD/TOUCH** | Flat-flex cables for display / touch |
+| 17 | **Main SoC / heatsink** | Processor area with heatsink |
 
 ### Connector Summary
 

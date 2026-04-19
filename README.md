@@ -6,14 +6,14 @@
 
 <p align="center">
   <b>Fanless · 24V DC / 5V USB Powered · Wall-Mountable · Built-in I/O</b><br>
-  <i>Pre-configured industrial control panels for smart homes, 3D printing, and information displays</i>
+  <i>Pre-configured industrial control panels for smart homes, 3D printing, HMI/SCADA, Arduino, CNC, and more</i>
 </p>
 
 ---
 
 ## Available Configurations
 
-The same ruggedized 7-inch touch panel — three purpose-built configurations, each ready to use out of the box.
+The same ruggedized 7-inch touch panel — six purpose-built configurations, each ready to use out of the box.
 
 <table>
 <tr>
@@ -51,6 +51,41 @@ Always-on information dashboard with Weawow, Pearl Weather, Etar Calendar, and T
 
 </td>
 </tr>
+<tr>
+<td align="center" width="33%">
+
+### 🏭 [HMI Pro](hmi/)
+
+**Industrial HMI / SCADA**
+
+Modbus TCP/RTU dashboards with Virtuino, TeslaModbusSCADA, MQTT support, and Node-RED / Grafana web shortcuts.
+
+[View Details →](hmi/)
+
+</td>
+<td align="center" width="33%">
+
+### 🔌 [Arduino Workbench](arduino/)
+
+**Electronics Companion**
+
+Serial monitor, Bluetooth console, RoboRemo/RemoteXY remote UIs, and Wokwi online simulator for Arduino & ESP projects.
+
+[View Details →](arduino/)
+
+</td>
+<td align="center" width="33%">
+
+### ⚙️ [GRBL CNC Controller](grbl/)
+
+**CNC Control Panel**
+
+GRBL sender app, serial terminal, TCP-to-serial bridge, and jscut CAM for CNC routers, lasers, and engravers.
+
+[View Details →](grbl/)
+
+</td>
+</tr>
 </table>
 
 ---
@@ -82,20 +117,23 @@ All configurations share the same industrial-grade hardware:
 
 ## Comparison
 
-| Feature | Home Assistant | 3D Printer | Weather Station |
-|---|:---:|:---:|:---:|
-| **Primary App** | HA Companion | Mobileraker / Octo4a | Weawow |
-| **Auto-Start** | ✅ | ✅ | ✅ |
-| **Kiosk Mode** | ✅ | ✅ | ✅ |
-| **USB Serial Drivers** | ✅ | ✅ | — |
-| **LTE/3G Modem Drivers** | ✅ | — | — |
-| **WiFi Dongle Drivers** | ✅ | ✅ | ✅ |
-| **BT Dongle Drivers** | ✅ | ✅ | ✅ |
-| **Chrome 119 WebView** | ✅ | ✅ | ✅ |
-| **Auto-Updater** | ✅ | — | — |
-| **Max Brightness** | — | — | ✅ |
-| **Calendar Integration** | — | — | ✅ |
-| **Best For** | Smart home control | Workshop / print farm | Home / office display |
+| Feature | Home Assistant | 3D Printer | Weather | HMI Pro | Arduino | GRBL CNC |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|
+| **Primary App** | HA Companion | Mobileraker / Octo4a | Weawow | Virtuino / TeslaSCADA | RoboRemo / RemoteXY | GRBL Controller |
+| **Auto-Start** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **Kiosk Mode** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **USB Serial Drivers** | ✅ | ✅ | — | ✅ | ✅ | ✅ |
+| **LTE/3G Modem Drivers** | ✅ | — | — | — | — | — |
+| **WiFi Dongle Drivers** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **BT Dongle Drivers** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **Chrome 119 WebView** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **TCP-to-Serial Bridge** | — | — | — | — | — | ✅ |
+| **MQTT / IoT** | — | — | — | ✅ | — | — |
+| **Modbus TCP/RTU** | — | — | — | ✅ | — | — |
+| **Auto-Updater** | ✅ | — | — | — | — | — |
+| **Max Brightness** | — | — | ✅ | — | — | — |
+| **Calendar Integration** | — | — | ✅ | — | — | — |
+| **Best For** | Smart home control | Workshop / print farm | Home / office display | Factory / PLC monitoring | Electronics bench | CNC / laser / engraver |
 
 ---
 
